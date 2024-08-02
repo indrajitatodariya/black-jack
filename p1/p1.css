@@ -1,0 +1,36 @@
+
+body{
+    background-image:url('bg2.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    margin-right:0px;
+    padding-top: 633px;
+}
+button{
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 1000;
+    font-style: normal; 
+    width: 300px;
+  height: 95px;
+  font-size: 50px;
+  border-radius: 47px;
+  background-color: rgb(201, 217, 212);
+  animation:upanddown;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+  @keyframes upanddown {
+    from{padding-top:633px}
+    to{padding-top:1000px}
+    
+  }
+}
+button:hover{
+    background-color: black;
+    text-shadow: 20px 20px 20px yellow;
+    
+    color: rgb(15, 118, 118);
+}
