@@ -36,7 +36,7 @@ body {
 	padding-bottom: 40px;
 }
 
-#enter-button{
+#enter-button-div{
 	align-items: center;
 	display: flex;
 	justify-content: center;
@@ -55,6 +55,17 @@ body {
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
+    cursor: pointer;
+}
+
+#enter_button:hover {
+    border: solid 6px;
+    background-color: white;
+    color: green;
+}
+
+#enter_button:active {
+    opacity: 0.7;
 }
 
 #player1_name{
