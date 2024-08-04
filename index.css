@@ -1,114 +1,29 @@
-body {
-    background-image: url('2bg.jpeg');
-    background-size: cover; 
+
+body{
+    background-image:url('bg2.jpeg') ;
     background-repeat: no-repeat;
-    background-position: center; 
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    margin-right:0px;
+    padding-top: 633px;
+}
+button{
     font-family: "Sankofa Display", sans-serif;
-	font-weight: 400;
- 	font-style: normal;
- 	font-weight: bold;
-
+    font-weight: 1000;
+    font-style: normal; 
+    width: 300px;
+  height: 95px;
+  font-size: 50px;
+  border-radius: 47px;
+  background-color: rgb(201, 217, 212);
 }
 
-.players {
-	text-align: center;
-	position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    text-align: center;
-    width: 100%;
-    font-size: 70px;
-}
 
-#player1{
-	padding-bottom: 40px;
-}
-
-#player2{
-	padding-bottom: 40px;
-}
-
-#player3{
-	padding-bottom: 40px;
-}
-
-#enter-button-div{
-	align-items: center;
-	display: flex;
-	justify-content: center;
-	padding-top: 540px;
-}
-
-#enter_button {
-	height: 100px;
-	width: 230px;
-	border-radius: 50px;
-	border: none;
-	font-size: 45px;
-	background-color: black;
-	color: white;
-	font-family: "Sankofa Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-#enter_button:hover {
-    border: solid 6px;
-    background-color: white;
-    color: green;
-}
-
-#enter_button:active {
-    opacity: 0.7;
-}
-
-#player1_name{
-	width: 300px;
-	height: 55px;
-	vertical-align: middle;
-	font-family: "Sankofa Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    font-size: 50px;
-    text-transform: uppercase;
-    border-radius: 10px;
-    border: solid 3px;
-}
-
-#player2_name{
-	width: 300px;
-	height: 55px;
-	vertical-align: middle;
-	font-family: "Sankofa Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    font-size: 50px;
-    text-transform: uppercase;
-    border-radius: 10px;
-    border: solid 3px;
-}
-
-#player3_name{
-	width: 300px;
-	height: 55px;
-	vertical-align: middle;
-	font-family: "Sankofa Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    font-size: 50px;
-    text-transform: uppercase;
-    border-radius: 10px;
-    border: solid 3px;
+button:hover{
+    background-color: black;
+    text-shadow: 20px 20px 20px yellow;
+    
+    color: rgb(15, 118, 118);
 }
