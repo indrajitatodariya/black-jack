@@ -18,16 +18,9 @@ button{
   font-size: 50px;
   border-radius: 47px;
   background-color: rgb(201, 217, 212);
-  animation:upanddown;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-
-  @keyframes upanddown {
-    from{padding-top:633px}
-    to{padding-top:1000px}
-    
-  }
 }
+
+
 button:hover{
     background-color: black;
     text-shadow: 20px 20px 20px yellow;
