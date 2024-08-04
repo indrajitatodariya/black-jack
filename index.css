@@ -18,6 +18,7 @@ button{
   font-size: 50px;
   border-radius: 47px;
   background-color: rgb(201, 217, 212);
+  cursor: pointer;
 }
 
 
