@@ -18,43 +18,78 @@ let i = 51;
 let pimg1=document.getElementById('pimg1')
 let pimg2=document.getElementById('pimg2')
 let pimg3=document.getElementById('pimg3')
-addEventListener("DOMContentLoaded", generateAndReduce1)
-addEventListener("DOMContentLoaded", generateAndReduce2)
-addEventListener("DOMContentLoaded", generateAndReduce3)
+addEventListener("DOMContentLoaded", generateAndReduce)
+// addEventListener("DOMContentLoaded", generateAndReduce2)
+// addEventListener("DOMContentLoaded", generateAndReduce3)
 
 
 
-function generateAndReduce1(){
-    let randomNumberGenerate = Math.floor(Math.random() * i); 
-    let selectedCard = allCards[randomNumberGenerate];
-    allCards.splice(randomNumberGenerate, 1);
+function generateAndReduce(){
+    let randomNumberGenerate1 = Math.floor(Math.random() * i); 
+    let selectedCard1 = allCards[randomNumberGenerate1];
+    allCards.splice(randomNumberGenerate1, 1);
 
-    pimg1.src= `img/${selectedCard}.png`;
+    pimg1.src= `img/${selectedCard1}.png`;
 
-    i--;
-}
+    let randomNumberGenerate2 = Math.floor(Math.random() * i); 
+    let selectedCard2 = allCards[randomNumberGenerate2];
+    allCards.splice(randomNumberGenerate2, 1);
 
-function generateAndReduce2(){
-    let randomNumberGenerate = Math.floor(Math.random() * i); 
-    let selectedCard = allCards[randomNumberGenerate];
-    allCards.splice(randomNumberGenerate, 1);
-
-    pimg2.src= `img/${selectedCard}.png`;
+    pimg2.src= `img/${selectedCard2}.png`;
     
-    i--;
-}
+    let randomNumberGenerate3 = Math.floor(Math.random() * i); 
+    let selectedCard3 = allCards[randomNumberGenerate3];
+    allCards.splice(randomNumberGenerate3, 1);
 
-function generateAndReduce3(){
-    let randomNumberGenerate = Math.floor(Math.random() * i); 
-    let selectedCard = allCards[randomNumberGenerate];
-    allCards.splice(randomNumberGenerate, 1);
-
-    pimg3.src= `img/${selectedCard}.png`;
+    pimg3.src= `img/${selectedCard3}.png`;
     
-    i--;
+    i=i-3
+    console.log(allCards);
+    console.log(selectedCard1,selectedCard2,selectedCard3);
+    console.log(i);
+    
+    
+    
 }
 
 
+
+
+
+
+
+
+//---------------------tommorow work--------------------------------------------------------
+
+// function generateAndReduce1(){
+//     let randomNumberGenerate = Math.floor(Math.random() * i); 
+//     let selectedCard = allCards[randomNumberGenerate];
+//     allCards.splice(randomNumberGenerate, 1);
+
+//     pimg1.src= `img/${selectedCard}.png`;
+
+//     i--;
+// }
+
+// function generateAndReduce2(){
+//     let randomNumberGenerate = Math.floor(Math.random() * i); 
+//     let selectedCard = allCards[randomNumberGenerate];
+//     allCards.splice(randomNumberGenerate, 1);
+
+//     pimg2.src= `img/${selectedCard}.png`;
+    
+//     i--;
+// }
+
+// function generateAndReduce3(){
+//     let randomNumberGenerate = Math.floor(Math.random() * i); 
+//     let selectedCard = allCards[randomNumberGenerate];
+//     allCards.splice(randomNumberGenerate, 1);
+
+//     pimg3.src= `img/${selectedCard}.png`;
+    
+//     i--;
+// }
 
 
 
