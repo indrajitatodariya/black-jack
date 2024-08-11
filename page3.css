@@ -77,6 +77,7 @@ h1{
     margin-top:0px;
     font-size: 30px;
     color: rgb(245, 227, 66);
+    text-transform: uppercase;
 }
 #p2{
     width: 100px;
@@ -104,9 +105,10 @@ h1{
 }
 #name2{
     margin-left: 5%;
-       margin-top:0px;
+    margin-top:0px;
     font-size: 30px;
     color: rgb(245, 227, 66);
+    text-transform: uppercase;
 }
 #p3{
     width: 100px;
@@ -135,7 +137,9 @@ h1{
 }
 #name3{
     margin-left: 5%;
-       margin-top:0px;
+    margin-top:0px;
     font-size: 30px;
     color: rgb(245, 227, 66);
+    text-transform: uppercase;
+
 }

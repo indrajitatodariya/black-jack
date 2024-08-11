@@ -1,3 +1,74 @@
+const allCards = [
+                    'dA', 'hA', 'cA', 'sA', 
+                    'd2', 'h2', 'c2', 's2',
+                    'd3', 'h3', 'c3', 's3', 
+                    'd4', 'h4', 'c4', 's4', 
+                    'd5', 'h5', 'c5', 's5', 
+                    'd6', 'h6', 'c6', 's6', 
+                    'd7', 'h7', 'c7', 's7', 
+                    'd8', 'h8', 'c8', 's8', 
+                    'd9', 'h9', 'c9', 's9', 
+                    'd10','h10','c10','s10', 
+                    'dJ', 'hJ', 'cJ', 'sJ',
+                    'dQ', 'hQ', 'cQ', 'sQ', 
+                    'dK', 'hK', 'cK', 'sK', 
+                 ]
+
+let i = 51;
+let pimg1=document.getElementById('pimg1')
+let pimg2=document.getElementById('pimg2')
+let pimg3=document.getElementById('pimg3')
+addEventListener("DOMContentLoaded", generateAndReduce1)
+addEventListener("DOMContentLoaded", generateAndReduce2)
+addEventListener("DOMContentLoaded", generateAndReduce3)
+
+
+
+function generateAndReduce1(){
+    let randomNumberGenerate = Math.floor(Math.random() * i); 
+    let selectedCard = allCards[randomNumberGenerate];
+    allCards.splice(randomNumberGenerate, 1);
+
+    pimg1.src= `img/${selectedCard}.png`;
+
+    i--;
+}
+
+function generateAndReduce2(){
+    let randomNumberGenerate = Math.floor(Math.random() * i); 
+    let selectedCard = allCards[randomNumberGenerate];
+    allCards.splice(randomNumberGenerate, 1);
+
+    pimg2.src= `img/${selectedCard}.png`;
+    
+    i--;
+}
+
+function generateAndReduce3(){
+    let randomNumberGenerate = Math.floor(Math.random() * i); 
+    let selectedCard = allCards[randomNumberGenerate];
+    allCards.splice(randomNumberGenerate, 1);
+
+    pimg3.src= `img/${selectedCard}.png`;
+    
+    i--;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------DO NOT TOUCH ANYTHING BELOW THIS-----------------------------//
+
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("inputForm");
 
@@ -67,5 +138,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-//----------------------------------------------------------------------------------//
 
