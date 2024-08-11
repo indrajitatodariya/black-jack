@@ -55,35 +55,35 @@ function generateAndReduce(){
 
 //---------------------tommorow work--------------------------------------------------------
 
-function generateAndReduce1(){
-    let randomNumberGenerate = Math.floor(Math.random() * i); 
-    let selectedCard = allCards[randomNumberGenerate];
-    allCards.splice(randomNumberGenerate, 1);
+// function generateAndReduce1(){
+//     let randomNumberGenerate = Math.floor(Math.random() * i); 
+//     let selectedCard = allCards[randomNumberGenerate];
+//     allCards.splice(randomNumberGenerate, 1);
 
-    pimg1.src= `img/${selectedCard}.png`;
+//     pimg1.src= `img/${selectedCard}.png`;
 
-    i--;
-}
+//     i--;
+// }
 
-function generateAndReduce2(){
-    let randomNumberGenerate = Math.floor(Math.random() * i); 
-    let selectedCard = allCards[randomNumberGenerate];
-    allCards.splice(randomNumberGenerate, 1);
+// function generateAndReduce2(){
+//     let randomNumberGenerate = Math.floor(Math.random() * i); 
+//     let selectedCard = allCards[randomNumberGenerate];
+//     allCards.splice(randomNumberGenerate, 1);
 
-    pimg2.src= `img/${selectedCard}.png`;
+//     pimg2.src= `img/${selectedCard}.png`;
     
-    i--;
-}
+//     i--;
+// }
 
-function generateAndReduce3(){
-    let randomNumberGenerate = Math.floor(Math.random() * i); 
-    let selectedCard = allCards[randomNumberGenerate];
-    allCards.splice(randomNumberGenerate, 1);
+// function generateAndReduce3(){
+//     let randomNumberGenerate = Math.floor(Math.random() * i); 
+//     let selectedCard = allCards[randomNumberGenerate];
+//     allCards.splice(randomNumberGenerate, 1);
 
-    pimg3.src= `img/${selectedCard}.png`;
+//     pimg3.src= `img/${selectedCard}.png`;
     
-    i--;
-}
+//     i--;
+// }
 
 
 
